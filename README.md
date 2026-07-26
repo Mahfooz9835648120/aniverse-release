@@ -249,7 +249,6 @@ Built by **NYROX**
 [![Stars](https://img.shields.io/github/stars/Mahfooz9835648120/aniverse-release?color=f59e0b&style=flat-square&logo=github&label=Stars)](https://github.com/Mahfooz9835648120/aniverse-release/stargazers)
 [![Issues](https://img.shields.io/github/issues/Mahfooz9835648120/aniverse-release?color=ec4899&style=flat-square&logo=github&label=Issues)](https://github.com/Mahfooz9835648120/aniverse-release/issues)
 [![Forks](https://img.shields.io/github/forks/Mahfooz9835648120/aniverse-release?color=6d28d9&style=flat-square&logo=github&label=Forks)](https://github.com/Mahfooz9835648120/aniverse-release/network/members)
-[![Downloads](https://img.shields.io/github/downloads/Mahfooz9835648120/aniverse-release/total?color=3ddc84&style=flat-square&logo=android&logoColor=white&label=Total%20Downloads)](https://github.com/Mahfooz9835648120/aniverse-release/releases)
 
 <br/>
 
