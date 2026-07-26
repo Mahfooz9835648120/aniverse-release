@@ -30,6 +30,30 @@
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/home2.jpg" width="180"/><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img src="screenshots/home.jpg" width="180"/><br/><sub><b>Continue Watching</b></sub></td>
+    <td align="center"><img src="screenshots/browse.jpg" width="180"/><br/><sub><b>Browse & Search</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/detail.jpg" width="180"/><br/><sub><b>Anime Detail</b></sub></td>
+    <td align="center"><img src="screenshots/player-page.jpg" width="180"/><br/><sub><b>Episode Player</b></sub></td>
+    <td align="center"><img src="screenshots/player.jpg" width="180"/><br/><sub><b>Video Player</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><img src="screenshots/manga.jpg" width="180"/><br/><sub><b>Manga Reader</b></sub></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## ⬇️ Installation
 
 <details open>
