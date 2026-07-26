@@ -36,17 +36,17 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home.jpg" width="180"/><br/><sub><b>Home</b></sub></td>
-    <td align="center"><img src="screenshots/home2.jpg" width="180"/><br/><sub><b>Continue Watching</b></sub></td>
-    <td align="center"><img src="screenshots/browse.jpg" width="180"/><br/><sub><b>Browse & Search</b></sub></td>
+    <td align="center"><img src="screenshots/home2.jpg" width="180"/><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img src="screenshots/home.jpg" width="180"/><br/><sub><b>Continue Watching</b></sub></td>
+    <td align="center"><img src="screenshots/browse.jpg" width="180"/><br/><sub><b>PLAYER PAGE</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/detail.jpg" width="180"/><br/><sub><b>Details</b></sub></td>
-    <td align="center"><img src="screenshots/player.jpg" width="180"/><br/><sub><b>Player</b></sub></td>
-    <td align="center"><img src="screenshots/player-page.jpg" width="180"/><br/><sub><b>Player Page</b></sub></td>
+    <td align="center"><img src="screenshots/detail.jpg" width="180"/><br/><sub><b>PLAYER PAGE DOWN</b></sub></td>
+    <td align="center"><img src="screenshots/player-page.jpg" width="180"/><br/><sub><b>Homepage</b></sub></td>
+    <td align="center"><img src="screenshots/player.jpg" width="180"/><br/><sub><b>Manga</b></sub></td>
   </tr>
   <tr>
-    <td align="center" colspan="3"><img src="screenshots/manga.jpg" width="180"/><br/><sub><b>Manga</b></sub></td>
+    <td align="center" colspan="3"><img src="screenshots/manga.jpg" width="180"/><br/><sub><b>Browswe & Search</b></sub></td>
   </tr>
 </table>
 
