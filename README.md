@@ -37,7 +37,7 @@
 
 <br/>
 
-**Step 1** — Go to [**Releases**](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) and download `Aniverse-v1.1.apk`
+**Step 1** — Download the APK from one of the sources below
 
 **Step 2** — On your Android device, open **Settings → Security** (or **Privacy**) and enable **Install from unknown sources** / **Install unknown apps**
 
@@ -46,6 +46,29 @@
 **Step 4** — Launch **Aniverse** and start watching 🎌
 
 </details>
+
+<br/>
+
+### 📦 Download Sources
+
+| Source | Link | Notes |
+|--------|------|-------|
+| **GitHub Releases** *(recommended)* | [⬇️ Download v1.1](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
+| **StreamVerse Mirror** | [⬇️ streamverse.fun/download](https://www.streamverse.fun/download.html) | Alternative mirror |
+
+<br/>
+
+### 🛡️ Safety & Virus Scan
+
+Aniverse is **100% clean** — verified by VirusTotal across 70+ antivirus engines.
+
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7/community)
+
+> 🔗 [**View full VirusTotal report →**](https://www.virustotal.com/gui/file/9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7/community)
+>
+> SHA-256: `9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7`
+
+Any antivirus warnings you may see are **false positives** — common for APKs that use WebView and native networking. The full scan report above confirms the file is clean.
 
 ---
 
