@@ -4,7 +4,53 @@ All notable changes to Aniverse are documented here.
 
 ---
 
+## [1.2] — 2026-07-27
+
+### Fixed
+- White blank screen on player page — player now loads correctly every time
+- Various UI/UX inconsistencies resolved across home, player, and detail pages
+
+### Added
+- **3D Hero Banner** — redesigned home carousel with depth layers and glass-morphism
+- **Media Card Expand** — long-press any card to expand with title, synopsis, score, and quick-action buttons (Info · Share · Play · Watchlist)
+- **Swipe Up to Play** — on expanded hero/card, swipe up to jump straight into playback
+- **Embed + Aniverse Player selection** — Available Providers section on player page; choose Embed, Dub, or language-specific streams (English-S1, English-S3, etc.)
+- **Manga Swipe Mode** — page-by-page horizontal swipe in addition to scroll; toggle in reader settings
+- **Continue Reading** — manga chapter + exact page saved; resume from home Continue Reading row
+- **Full Theme System** — System / Dark / Light modes with 6 accent presets: Sky · Mono · Aqua · Violet · Rose · Lime
+- **Custom Accent Colours** — pick any Main + Soft colour pair; unlocks after 30-day watch streak
+- **Rounded Corners + Glass Strength** — sliders with live preview
+- **Refresh Rate Control** — manual lock at 60 / 90 / 120 Hz or Auto
+- **Profile & Watch Stats** — Day Streak · Episodes · Watch Time · Best Streak on profile page
+- **Watchlist Tabs** — filter by All · Anime · Movies · Manga
+
+---
+
 ## [1.1] — 2025-07-26
+
+### Fixed
+- Episode image fallback: TMDB grid cards now show a dim cover/banner when `still_path` is missing
+- AniList resolution no longer gets stuck in loading state
+- Player control fade animations corrected
+
+### Added
+- TMDB / AniList source toggle in episodes header
+- Arc-based episode navigation (arc pills ≤100 eps, dropdown >100 eps)
+- Desktop prev/next episode arrows (≥768px)
+- `anilistResolver` filters TV vs MOVIE results
+
+---
+
+## [1.0.0] — Initial Release
+
+### Added
+- Multi-audio playback (Hindi, Tamil, Malayalam, English, Japanese)
+- Auto skip intro & outro · Auto Next episode
+- Server 1 & Server 2 support
+- TMDB + AniList episode integration
+- Filler episode markers
+- Dark themed UI
+
 
 ### Fixed
 - Episode image fallback: TMDB grid cards now show a dim cover/banner when `still_path` is missing — no more blank dark cards

@@ -17,7 +17,7 @@
 
 [![⬇️ Download APK](https://img.shields.io/github/v/release/Mahfooz9835648120/aniverse-release?label=%E2%AC%87%EF%B8%8F%20Download%20APK&color=6d28d9&style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Latest-v1.1-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1)
+[![Version](https://img.shields.io/badge/Latest-v1.2-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.2)
 [![License](https://img.shields.io/badge/Personal%20Use-Only-ec4899?style=for-the-badge)](#disclaimer)
 
 <br/>
@@ -34,19 +34,39 @@
 
 <div align="center">
 
+### 🏠 Home & Discovery
+
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home2.jpg" width="180"/><br/><sub><b>Home</b></sub></td>
-    <td align="center"><img src="screenshots/home.jpg" width="180"/><br/><sub><b>Continue Watching</b></sub></td>
-    <td align="center"><img src="screenshots/browse.jpg" width="180"/><br/><sub><b>PLAYER PAGE</b></sub></td>
+    <td align="center"><img src="screenshots/hero-banner.jpg" width="160"/><br/><sub><b>3D Hero Banner</b></sub></td>
+    <td align="center"><img src="screenshots/hero-conan.jpg" width="160"/><br/><sub><b>Card Expand on Hold</b></sub></td>
+    <td align="center"><img src="screenshots/jojo-expand.jpg" width="160"/><br/><sub><b>Swipe Up to Play</b></sub></td>
+    <td align="center"><img src="screenshots/home-continue.jpg" width="160"/><br/><sub><b>Continue Watching</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/detail.jpg" width="180"/><br/><sub><b>PLAYER PAGE DOWN</b></sub></td>
-    <td align="center"><img src="screenshots/player-page.jpg" width="180"/><br/><sub><b>Homepage</b></sub></td>
-    <td align="center"><img src="screenshots/player.jpg" width="180"/><br/><sub><b>Manga</b></sub></td>
+    <td align="center"><img src="screenshots/home-manga-row.jpg" width="160"/><br/><sub><b>Manga + Anime Rows</b></sub></td>
+    <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>My Watchlist</b></sub></td>
+    <td align="center"><img src="screenshots/episode-list.jpg" width="160"/><br/><sub><b>Episode List View</b></sub></td>
+    <td align="center"><img src="screenshots/player-page2.jpg" width="160"/><br/><sub><b>Player + Providers</b></sub></td>
   </tr>
+</table>
+
+### 📖 Manga Reader
+
+<table>
   <tr>
-    <td align="center" colspan="3"><img src="screenshots/manga.jpg" width="180"/><br/><sub><b>Browswe & Search</b></sub></td>
+    <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Full-Page Reader</b></sub></td>
+    <td align="center"><img src="screenshots/manga-swipe.jpg" width="160"/><br/><sub><b>Swipe Mode + Settings</b></sub></td>
+  </tr>
+</table>
+
+### 🎨 Themes & Profile
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/profile.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
+    <td align="center"><img src="screenshots/settings-theme-lime.jpg" width="160"/><br/><sub><b>Lime Theme</b></sub></td>
+    <td align="center"><img src="screenshots/settings-theme-rose.jpg" width="160"/><br/><sub><b>Rose Theme</b></sub></td>
   </tr>
 </table>
 
@@ -100,8 +120,25 @@ Any antivirus warnings you may see are **false positives** — common for APKs t
 
 <br/>
 
+### 🏠 Home Screen
+- **3D Hero Banner** — depth-layered carousel with glass-morphism; suggests anime based on your watch history
+- **Continue Watching** — pick up exactly where you left off, with per-card progress bar
+- **Continue Reading** — manga chapter + page saved, resume directly from home
+- **Trending Now / All-Time Popular / Picks For You** — personalised recommendation rows
+- **Trending Manga** — fresh chapters updated daily
+
+<br/>
+
+### 🃏 Media Card Expand
+**Long-press** any card anywhere in the app to expand into a detail sheet:
+- Shows title, synopsis, year, type, score
+- Quick-action buttons: **ⓘ Info · Share · ▶ Play · 🔖 Watchlist**
+- On the hero banner — **swipe up** on an expanded card to jump straight into playback
+
+<br/>
+
 ### 🎌 Multi-Audio Playback
-Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · English · Japanese** — switched instantly without buffering or reloading. Every dubbed episode is fully synced.
+Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · English · Japanese** — switched instantly without buffering.
 
 <br/>
 
@@ -118,14 +155,27 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 
 <br/>
 
+### 🖥️ Player & Providers
+
+| Provider | Description |
+|----------|-------------|
+| **Embed** | Default stream source |
+| **Dub** | English dubbed stream |
+| **English-S1/S2/S3** | Season-specific English sources |
+| **Aniverse Player** | Native HLS player with subtitle support |
+
+- **Autoplay** toggle · **Play Embed** toggle · Episode counter badge (`Ep 8 / 13`)
+- **Previous / Next** episode cards with thumbnail preview
+- `-10 / +10` skip · Subtitles · Settings · PiP · Fullscreen
+
+<br/>
+
 ### 🗂️ Smart Episode Navigation
-
-Built for long-running anime with thousands of episodes:
-
-- **Arc Pills** — For shows ≤100 eps per season, browse by story arc (e.g. *Kazekage Rescue*, *Long-Awaited Reunion*, *Grimmjaw*) just like Crunchyroll
-- **Range Dropdown** — For 100+ episode seasons (One Piece S1 has 61 eps, Naruto has 500) — chunked into clean 1–100, 101–200 ranges
-- **TMDB / AniList Toggle** — Switch episode source to get the best thumbnails, titles, and descriptions for each show
-- 🟡 **Filler Markers** — Every filler episode is clearly labelled so you can skip or watch
+- **Arc Pills** — browse by story arc for shows ≤100 eps/season
+- **Range Dropdown** — chunked 1–100, 101–200 for long series
+- **TMDB / AniList Toggle** — switch episode data source for best thumbnails & titles
+- 🟡 **Filler Markers** — every filler episode clearly labelled
+- **List View** — thumbnail + title + NOW PLAYING indicator
 
 <br/>
 
@@ -134,49 +184,106 @@ Built for long-running anime with thousands of episodes:
 | Feature | Description |
 |---------|-------------|
 | **Auto Skip Intro** | Skips opening automatically |
-| **Auto Skip Outro** | Skips ending / credits automatically |
-| **Auto Next Episode** | Plays next episode when current ends |
+| **Auto Skip Outro** | Skips credits automatically |
+| **Autoplay Next** | Plays next episode when current ends |
 
 <br/>
 
-### 🖥️ Player
-
-- **Server 1 & Server 2** — One-tap switch between stream sources
-- **Multi-Audio Selector** — In-player language switching
-- **Desktop arrows** — Prev / Next episode arrows flanking the player on tablet & desktop
-- **Smooth controls** — Fade in/out animations, keyboard-friendly
+### 📖 Manga Reader
+- **Scroll mode** — classic vertical scroll
+- **Swipe mode** — horizontal page-by-page like a real manga
+- **Zoom** — pinch or Fit / + / − controls · **Page gap** slider
+- Read position saved — resume from exact page in Continue Reading
+- Supports Manga, Manhwa, Manhua
 
 <br/>
 
-### 🔍 Metadata & Discovery
+### 🔖 Watchlist
+- Add anime, movies, and manga to your personal list
+- Filter by **All · Anime · Movies · Manga** · Search within list
+- Long-press a card to remove
 
-- **AniList + TMDB** — Episode stills, titles, synopsis, air dates
-- **Airing Countdown** — Live timer for next episode of ongoing shows  
-- **Filler detection** — Integrated filler list for all major long-runners
-- **Share & Report** — Share any episode or flag broken streams
+<br/>
+
+### 🎨 Theme System
+
+| Option | Description |
+|--------|-------------|
+| **System / Dark / Light** | Follows device or manual override |
+| **Accent presets** | Sky · Mono · Aqua · Violet · Rose · Lime |
+| **Custom colours** | Main + Soft hex; unlocks at 30-day streak |
+| **Rounded corners** | Slider 0–30px |
+| **Glass strength** | Blur intensity 0–100% |
+| **Live preview** | See changes before applying |
+
+<br/>
+
+### 👤 Profile & Stats
+- Avatar, banner, bio, verified badge
+- **Watch Stats**: Day Streak · Episodes · Watch Time · Best Streak
+- Account info: Provider · Member since · Last sign in
+- **Refresh rate**: Auto / 60 / 90 / 120 Hz
 
 ---
 
-## 🆕 What's New — v1.1
+## 🆕 What's New — v1.2
 
 ```
-✅  Episode image fallback     No more blank dark cards — uses cover/banner when
-                               TMDB still_path is missing
+🐛  FIXES
+──────────────────────────────────────────────────────────────────
+✅  White blank player page    Fixed — player now loads correctly
+                               without flashing a white screen
 
-✅  TMDB / AniList toggle      Switch episode data source mid-session; shows when
-                               AniList streamingEpisodes data is available
+✅  UI/UX polish               Multiple layout and interaction
+                               inconsistencies resolved
 
-✅  Arc navigation             Arc pills (≤100 eps) and dropdown (>100 eps) for
-                               AniList mode — browse One Piece by arc not numbers
 
-✅  Desktop episode arrows     Prev/Next buttons beside the player on ≥768px screens
+✨  NEW FEATURES
+──────────────────────────────────────────────────────────────────
+✅  3D Hero Banner             Redesigned home hero carousel with
+                               depth and glass-morphism effect
 
-✅  Animation fix              Player controls fade correctly after seekbar interaction
+✅  Media Card Expand          Long-press any card to expand it
+                               — shows title, description, year,
+                               score, and quick-action buttons
+                               (Info · Share · Play · Watchlist)
 
-✅  AniList loading fix        Resolver no longer gets stuck in loading state
+✅  Swipe Up to Play           On expanded hero/card, swipe up
+                               to jump straight into playback
 
-✅  Format filter              anilistResolver now correctly filters TV vs MOVIE
-                               results — no more wrong matches
+✅  Embed + Aniverse Player    Player page now shows Available
+                               Providers — choose between Embed,
+                               Dub, or language-specific streams
+                               (English-S1, English-S3, etc.)
+
+✅  Manga Swipe Mode           Manga reader now supports swipe
+                               (page-by-page) in addition to
+                               scroll; toggle in reader settings
+
+✅  Continue Reading           Last manga page saved — resume
+                               from exactly where you left off
+                               shown in home Continue Reading row
+
+✅  Full Theme System          System / Dark / Light modes plus
+                               6 accent presets: Sky · Mono ·
+                               Aqua · Violet · Rose · Lime
+
+✅  Custom Accent Colours      Pick any Main + Soft colour pair;
+                               unlocks after 30-day streak
+
+✅  Rounded Corners + Glass    Sliders for corner radius (px) and
+                               glass-morphism strength (%) with
+                               live preview before applying
+
+✅  Refresh Rate Control       Manual lock at 60 / 90 / 120 Hz
+                               or Auto (adapts to display)
+
+✅  Profile & Watch Stats      Day streak · Episodes watched ·
+                               Total watch time · Best streak
+                               all shown on your profile page
+
+✅  Watchlist Tabs             Filter watchlist by All · Anime
+                               · Movies · Manga in one tap
 ```
 
 ---
