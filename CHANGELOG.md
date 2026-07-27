@@ -4,7 +4,7 @@ All notable changes to Aniverse are documented here.
 
 ---
 
-## [1.2] — 2026-07-27
+## [1.3] — 2026-07-27
 
 ### Fixed
 - White blank screen on player page — player now loads correctly every time

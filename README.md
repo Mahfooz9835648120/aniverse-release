@@ -17,7 +17,7 @@
 
 [![⬇️ Download APK](https://img.shields.io/github/v/release/Mahfooz9835648120/aniverse-release?label=%E2%AC%87%EF%B8%8F%20Download%20APK&color=6d28d9&style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Latest-v1.2-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.2)
+[![Version](https://img.shields.io/badge/Latest-v1.3-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.3)
 [![License](https://img.shields.io/badge/Personal%20Use-Only-ec4899?style=for-the-badge)](#disclaimer)
 
 <br/>
@@ -39,15 +39,15 @@
 <table>
   <tr>
     <td align="center"><img src="screenshots/hero-banner.jpg" width="160"/><br/><sub><b>3D Hero Banner</b></sub></td>
-    <td align="center"><img src="screenshots/hero-conan.jpg" width="160"/><br/><sub><b>Card Expand on Hold</b></sub></td>
+    <td align="center"><img src="screenshots/hero-conan.jpg" width="160"/><br/><sub><b>Detective Conan Hero</b></sub></td>
     <td align="center"><img src="screenshots/jojo-expand.jpg" width="160"/><br/><sub><b>Swipe Up to Play</b></sub></td>
-    <td align="center"><img src="screenshots/home-continue.jpg" width="160"/><br/><sub><b>Continue Watching</b></sub></td>
+    <td align="center"><img src="screenshots/home2.jpg" width="160"/><br/><sub><b>Continue Watching</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/home-manga-row.jpg" width="160"/><br/><sub><b>Manga + Anime Rows</b></sub></td>
+    <td align="center"><img src="screenshots/browse.jpg" width="160"/><br/><sub><b>Manga + Anime Rows</b></sub></td>
     <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>My Watchlist</b></sub></td>
-    <td align="center"><img src="screenshots/episode-list.jpg" width="160"/><br/><sub><b>Episode List View</b></sub></td>
-    <td align="center"><img src="screenshots/player-page2.jpg" width="160"/><br/><sub><b>Player + Providers</b></sub></td>
+    <td align="center"><img src="screenshots/player-page.jpg" width="160"/><br/><sub><b>Episode List + Providers</b></sub></td>
+    <td align="center"><img src="screenshots/player.jpg" width="160"/><br/><sub><b>Video Player</b></sub></td>
   </tr>
 </table>
 
@@ -55,8 +55,8 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Full-Page Reader</b></sub></td>
-    <td align="center"><img src="screenshots/manga-swipe.jpg" width="160"/><br/><sub><b>Swipe Mode + Settings</b></sub></td>
+    <td align="center"><img src="screenshots/manga.jpg" width="160"/><br/><sub><b>Manga Home</b></sub></td>
+    <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Swipe Mode + Settings</b></sub></td>
   </tr>
 </table>
 
@@ -64,7 +64,7 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/profile.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
+    <td align="center"><img src="screenshots/home.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
     <td align="center"><img src="screenshots/settings-theme-lime.jpg" width="160"/><br/><sub><b>Lime Theme</b></sub></td>
     <td align="center"><img src="screenshots/settings-theme-rose.jpg" width="160"/><br/><sub><b>Rose Theme</b></sub></td>
   </tr>
@@ -76,6 +76,8 @@
 
 ## ⬇️ Installation
 
+> ⚠️ **Updating from an older build?** This release uses a different signing key than earlier APKs, so Android will **not** let you install it as an update over an existing install. You'll need to **uninstall the old Aniverse app first**, then install this one fresh. Uninstalling clears local app data (watch history saved only on-device, custom theme settings, etc.) — anything synced to your account will still be there after signing back in.
+
 <details open>
 <summary><b>Quick Install Guide</b></summary>
 
@@ -85,9 +87,11 @@
 
 **Step 2** — On your Android device, open **Settings → Security** (or **Privacy**) and enable **Install from unknown sources** / **Install unknown apps**
 
-**Step 3** — Open the downloaded APK file and tap **Install**
+**Step 3** — If you have an older Aniverse APK installed, **uninstall it first** — this release can't be installed as an update over it
 
-**Step 4** — Launch **Aniverse** and start watching 🎌
+**Step 4** — Open the downloaded APK file and tap **Install**
+
+**Step 5** — Launch **Aniverse** and start watching 🎌
 
 </details>
 
@@ -97,20 +101,18 @@
 
 | Source | Link | Notes |
 |--------|------|-------|
-| **GitHub Releases** *(recommended)* | [⬇️ Download v1.1](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
+| **GitHub Releases** *(recommended)* | [⬇️ Download v1.3](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
 | **StreamVerse Mirror** | [⬇️ streamverse.fun/download](https://www.streamverse.fun/download.html) | Alternative mirror |
 
 <br/>
 
 ### 🛡️ Safety & Virus Scan
 
-Aniverse is **100% clean** — verified by VirusTotal across 70+ antivirus engines.
+Aniverse v1.3 is **100% clean** — verified by VirusTotal, 0 detections.
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7/community)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
-> 🔗 [**View full VirusTotal report →**](https://www.virustotal.com/gui/file/9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7/community)
->
-> SHA-256: `9f8d375a5606a8ca532f3891b090ee3b98eb64da9e1c8b99b8d5afdcad21dec7`
+> 🔗 [**View full VirusTotal report →**](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
 Any antivirus warnings you may see are **false positives** — common for APKs that use WebView and native networking. The full scan report above confirms the file is clean.
 
@@ -226,7 +228,7 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 
 ---
 
-## 🆕 What's New — v1.2
+## 🆕 What's New — v1.3
 
 ```
 🐛  FIXES
@@ -343,7 +345,7 @@ Aniverse does not host, store, or distribute any video content. All streams are 
 
 <br/>
 
-**Aniverse v1.1**
+**Aniverse v1.3**
 
 Built by **NYROX**
 
