@@ -17,7 +17,7 @@
 
 [![⬇️ Download APK](https://img.shields.io/github/v/release/Mahfooz9835648120/aniverse-release?label=%E2%AC%87%EF%B8%8F%20Download%20APK&color=6d28d9&style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Latest-v1.3-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.3)
+[![Version](https://img.shields.io/badge/Latest-v1.4-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.4)
 [![License](https://img.shields.io/badge/Personal%20Use-Only-ec4899?style=for-the-badge)](#disclaimer)
 
 <br/>
@@ -101,20 +101,18 @@
 
 | Source | Link | Notes |
 |--------|------|-------|
-| **GitHub Releases** *(recommended)* | [⬇️ Download v1.3](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
+| **GitHub Releases** *(recommended)* | [⬇️ Download v1.4](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
 | **StreamVerse Mirror** | [⬇️ streamverse.fun/download](https://www.streamverse.fun/download.html) | Alternative mirror |
 
 <br/>
 
 ### 🛡️ Safety & Virus Scan
 
-Aniverse v1.3 is **100% clean** — verified by VirusTotal, 0 detections.
+Aniverse v1.4 is ready for Android. A new VirusTotal report will be linked with the release APK. The report below is retained for the previous v1.3 build.
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
+[![VirusTotal](https://img.shields.io/badge/v1.3%20VirusTotal-0%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
-> 🔗 [**View full VirusTotal report →**](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
-
-Any antivirus warnings you may see are **false positives** — common for APKs that use WebView and native networking. The full scan report above confirms the file is clean.
+> 🔗 [**View the v1.3 VirusTotal report →**](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
 ---
 
@@ -212,7 +210,7 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 | Option | Description |
 |--------|-------------|
 | **System / Dark / Light** | Follows device or manual override |
-| **Accent presets** | Sky · Mono · Aqua · Violet · Rose · Lime |
+| **Accent presets** | Aniverse · Sakura · Moon · Graphite · Gold Black · Aurora · Emerald · Crimson · Royal · Lavender · Solar · Ocean · Matcha · Rose · Copper |
 | **Custom colours** | Main + Soft hex; unlocks at 30-day streak |
 | **Rounded corners** | Slider 0–30px |
 | **Glass strength** | Blur intensity 0–100% |
@@ -228,64 +226,53 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 
 ---
 
-## 🆕 What's New — v1.3
+## 🆕 What's New — v1.4
 
 ```
-🐛  FIXES
+✨  EXPERIENCE
 ──────────────────────────────────────────────────────────────────
-✅  White blank player page    Fixed — player now loads correctly
-                               without flashing a white screen
+✅  Smoother Home              Hero swipes do less work while moving,
+                               with refined text and action timing
 
-✅  UI/UX polish               Multiple layout and interaction
-                               inconsistencies resolved
+✅  Anime Quote Strip          120 rotating original quotes between
+                               the hero and Continue Watching
+
+✅  Cleaner Top Rows           Removed Show more / Show less controls
+                               for immediate horizontal browsing
+
+✅  Unified Manga Cards        Manga rows now match anime MediaCards
+                               without long-press popups
 
 
-✨  NEW FEATURES
+🎨  THEMES
 ──────────────────────────────────────────────────────────────────
-✅  3D Hero Banner             Redesigned home hero carousel with
-                               depth and glass-morphism effect
+✅  More Theme Presets         Ocean · Matcha · Rose · Copper added
 
-✅  Media Card Expand          Long-press any card to expand it
-                               — shows title, description, year,
-                               score, and quick-action buttons
-                               (Info · Share · Play · Watchlist)
+✅  Better Light Theme         Player navigation, information panels,
+                               community chat and controls now use
+                               readable theme-aware surfaces
 
-✅  Swipe Up to Play           On expanded hero/card, swipe up
-                               to jump straight into playback
+✅  Clearer Player Info        Removed the permanent dark gradient
+                               behind show information
 
-✅  Embed + Aniverse Player    Player page now shows Available
-                               Providers — choose between Embed,
-                               Dub, or language-specific streams
-                               (English-S1, English-S3, etc.)
 
-✅  Manga Swipe Mode           Manga reader now supports swipe
-                               (page-by-page) in addition to
-                               scroll; toggle in reader settings
+📺  PLAYER & FILES
+──────────────────────────────────────────────────────────────────
+✅  Subtitle Upload Fix        CinePlayer and Downloads now keep the
+                               Android file picker alive correctly
 
-✅  Continue Reading           Last manga page saved — resume
-                               from exactly where you left off
-                               shown in home Continue Reading row
+✅  Wider Subtitle Support     SRT · VTT · ASS · SSA and Android
+                               generic document MIME types supported
 
-✅  Full Theme System          System / Dark / Light modes plus
-                               6 accent presets: Sky · Mono ·
-                               Aqua · Violet · Rose · Lime
+✅  Profile Media Fix          Avatar and banner image pickers now
+                               open the gallery correctly; animated
+                               media has a separate chooser
 
-✅  Custom Accent Colours      Pick any Main + Soft colour pair;
-                               unlocks after 30-day streak
 
-✅  Rounded Corners + Glass    Sliders for corner radius (px) and
-                               glass-morphism strength (%) with
-                               live preview before applying
-
-✅  Refresh Rate Control       Manual lock at 60 / 90 / 120 Hz
-                               or Auto (adapts to display)
-
-✅  Profile & Watch Stats      Day streak · Episodes watched ·
-                               Total watch time · Best streak
-                               all shown on your profile page
-
-✅  Watchlist Tabs             Filter watchlist by All · Anime
-                               · Movies · Manga in one tap
+🔐  ACCOUNT
+──────────────────────────────────────────────────────────────────
+✅  Discord Sign-In            Discord OAuth is available alongside
+                               Google and email sign-in
 ```
 
 ---
@@ -345,7 +332,7 @@ Aniverse does not host, store, or distribute any video content. All streams are 
 
 <br/>
 
-**Aniverse v1.3**
+**Aniverse v1.4**
 
 Built by **NYROX**
 
