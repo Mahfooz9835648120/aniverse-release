@@ -34,39 +34,46 @@
 
 <div align="center">
 
-### 🏠 Home & Discovery
+### 🏠 Home & Hero
 
 <table>
   <tr>
+    <td align="center"><img src="screenshots/home-welcome.jpg" width="160"/><br/><sub><b>Welcome + AI Suggestion</b></sub></td>
+    <td align="center"><img src="screenshots/home-hero.jpg" width="160"/><br/><sub><b>Continue Watching Hero</b></sub></td>
     <td align="center"><img src="screenshots/hero-banner.jpg" width="160"/><br/><sub><b>3D Hero Banner</b></sub></td>
-    <td align="center"><img src="screenshots/hero-conan.jpg" width="160"/><br/><sub><b>Detective Conan Hero</b></sub></td>
     <td align="center"><img src="screenshots/jojo-expand.jpg" width="160"/><br/><sub><b>Swipe Up to Play</b></sub></td>
-    <td align="center"><img src="screenshots/home2.jpg" width="160"/><br/><sub><b>Continue Watching</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/browse.jpg" width="160"/><br/><sub><b>Manga + Anime Rows</b></sub></td>
-    <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>My Watchlist</b></sub></td>
-    <td align="center"><img src="screenshots/player-page.jpg" width="160"/><br/><sub><b>Episode List + Providers</b></sub></td>
-    <td align="center"><img src="screenshots/player.jpg" width="160"/><br/><sub><b>Video Player</b></sub></td>
   </tr>
 </table>
 
-### 📖 Manga Reader
+### 🖥️ Player
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/player-one-piece.jpg" width="160"/><br/><sub><b>Native Player — Skip Intro</b></sub></td>
+    <td align="center"><img src="screenshots/player.jpg" width="160"/><br/><sub><b>Video Player Controls</b></sub></td>
+    <td align="center"><img src="screenshots/episode-list.jpg" width="160"/><br/><sub><b>Episode List + Providers</b></sub></td>
+  </tr>
+</table>
+
+### 📖 Manga & Browse
 
 <table>
   <tr>
     <td align="center"><img src="screenshots/manga.jpg" width="160"/><br/><sub><b>Manga Home</b></sub></td>
-    <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Swipe Mode + Settings</b></sub></td>
+    <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Manga Reader</b></sub></td>
+    <td align="center"><img src="screenshots/browse.jpg" width="160"/><br/><sub><b>Browse & Search</b></sub></td>
+    <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>My Watchlist</b></sub></td>
   </tr>
 </table>
 
-### 🎨 Themes & Profile
+### 🎨 Profile & Settings
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
-    <td align="center"><img src="screenshots/settings-theme-lime.jpg" width="160"/><br/><sub><b>Lime Theme</b></sub></td>
-    <td align="center"><img src="screenshots/settings-theme-rose.jpg" width="160"/><br/><sub><b>Rose Theme</b></sub></td>
+    <td align="center"><img src="screenshots/profile-v2.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
+    <td align="center"><img src="screenshots/sidebar.jpg" width="160"/><br/><sub><b>Sidebar & Library</b></sub></td>
+    <td align="center"><img src="screenshots/settings-playback.jpg" width="160"/><br/><sub><b>Playback Preferences</b></sub></td>
+    <td align="center"><img src="screenshots/settings-theme-rose.jpg" width="160"/><br/><sub><b>Theme Customisation</b></sub></td>
   </tr>
 </table>
 
@@ -229,50 +236,83 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 ## 🆕 What's New — v1.4
 
 ```
-✨  EXPERIENCE
+🐛  FIXES
 ──────────────────────────────────────────────────────────────────
-✅  Smoother Home              Hero swipes do less work while moving,
-                               with refined text and action timing
+✅  Player screen cut-off       Player no longer gets clipped on
+                                different screen sizes — full video
+                                frame always visible
 
-✅  Anime Quote Strip          120 rotating original quotes between
-                               the hero and Continue Watching
+✅  Font sizing fixed           Text sizes across player info, episode
+                                titles and detail pages now scale
+                                correctly on all device densities
 
-✅  Cleaner Top Rows           Removed Show more / Show less controls
-                               for immediate horizontal browsing
-
-✅  Unified Manga Cards        Manga rows now match anime MediaCards
-                               without long-press popups
+✅  Subtitle upload fixed       File picker stays alive correctly when
+                                uploading SRT · VTT · ASS · SSA
+                                subtitle files from local storage
 
 
-🎨  THEMES
+✨  HOME & HERO BANNER
 ──────────────────────────────────────────────────────────────────
-✅  More Theme Presets         Ocean · Matcha · Rose · Copper added
+✅  Cleaner Hero Banner         Redesigned hero with tighter layout,
+                                better contrast and smoother swipe
+                                transitions between cards
 
-✅  Better Light Theme         Player navigation, information panels,
-                               community chat and controls now use
-                               readable theme-aware surfaces
+✅  AI-Powered Suggestions      Hero shows "Matches your Drama +
+                                Action taste" context — picks anime
+                                based on your genres, history and
+                                what you chose in onboarding
 
-✅  Clearer Player Info        Removed the permanent dark gradient
-                               behind show information
+✅  Continue Watching Hero      If you have an in-progress episode,
+                                the hero shows it first with episode
+                                number and timestamp
+
+✅  Personalised Greeting       Greeting changes by time of day —
+                                "Hello", "Welcome back" etc. with
+                                your username shown
+
+✅  Anime Quote Strip           Rotating quotes between the hero
+                                and Continue Watching row
+
+✅  Smoother Swipes             Hero transitions refined — less work
+                                while swiping, snappier feel
 
 
-📺  PLAYER & FILES
+🎨  DESIGN & CUSTOMISATION
 ──────────────────────────────────────────────────────────────────
-✅  Subtitle Upload Fix        CinePlayer and Downloads now keep the
-                               Android file picker alive correctly
+✅  Reduce Motion toggle        Simpler cards, static backgrounds
+                                and shorter transitions — for low-end
+                                devices or motion sensitivity
 
-✅  Wider Subtitle Support     SRT · VTT · ASS · SSA and Android
-                               generic document MIME types supported
+✅  Low Performance Mode        Reduce Motion disables parallax,
+                                heavy blur and complex animations
+                                to keep the app fast on budget phones
 
-✅  Profile Media Fix          Avatar and banner image pickers now
-                               open the gallery correctly; animated
-                               media has a separate chooser
+✅  More Theme Presets          Ocean · Matcha · Rose · Copper added
+
+✅  Better Light Theme          Player nav, info panels, community
+                                chat and controls now use readable
+                                theme-aware surfaces
+
+✅  Playback Preferences        Primary language · Secondary language
+                                · Preferred quality (1080p / 720p /
+                                480p) saved per account
 
 
-🔐  ACCOUNT
+👤  PROFILE & LIBRARY
 ──────────────────────────────────────────────────────────────────
-✅  Discord Sign-In            Discord OAuth is available alongside
-                               Google and email sign-in
+✅  Sidebar My Library          Quick access to Watchlist, Admin
+                                Panel, Community and Social from
+                                the side menu with recent watch row
+
+✅  Wider Subtitle Support      SRT · VTT · ASS · SSA and Android
+                                generic document MIME types all work
+
+✅  Profile Media Fix           Avatar and banner image pickers open
+                                the gallery correctly; animated
+                                media has a separate chooser
+
+✅  Discord Sign-In             Discord OAuth alongside Google and
+                                email sign-in
 ```
 
 ---
