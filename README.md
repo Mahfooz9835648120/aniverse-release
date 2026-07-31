@@ -17,7 +17,7 @@
 
 [![⬇️ Download APK](https://img.shields.io/github/v/release/Mahfooz9835648120/aniverse-release?label=%E2%AC%87%EF%B8%8F%20Download%20APK&color=6d28d9&style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Latest-v1.4-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.4)
+[![Version](https://img.shields.io/badge/Latest-v1.1.5-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1.5)
 [![License](https://img.shields.io/badge/Personal%20Use-Only-ec4899?style=for-the-badge)](#disclaimer)
 
 <br/>
@@ -108,14 +108,14 @@
 
 | Source | Link | Notes |
 |--------|------|-------|
-| **GitHub Releases** *(recommended)* | [⬇️ Download v1.4](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
+| **GitHub Releases** *(recommended)* | [⬇️ Download v1.1.5](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
 | **StreamVerse Mirror** | [⬇️ streamverse.fun/download](https://www.streamverse.fun/download.html) | Alternative mirror |
 
 <br/>
 
 ### 🛡️ Safety & Virus Scan
 
-Aniverse v1.4 is ready for Android. A new VirusTotal report will be linked with the release APK. The report below is retained for the previous v1.3 build.
+Aniverse v1.1.5 is ready for Android. A new VirusTotal report will be linked with the release APK. The report below is retained for the previous v1.3 build.
 
 [![VirusTotal](https://img.shields.io/badge/v1.3%20VirusTotal-0%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
@@ -233,7 +233,7 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 
 ---
 
-## 🆕 What's New — v1.4
+## 🆕 What's New — v1.1.5
 
 ```
 🐛  FIXES
@@ -372,7 +372,7 @@ Aniverse does not host, store, or distribute any video content. All streams are 
 
 <br/>
 
-**Aniverse v1.4**
+**Aniverse v1.1.5**
 
 Built by **NYROX**
 

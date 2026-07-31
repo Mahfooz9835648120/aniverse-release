@@ -4,6 +4,22 @@ All notable changes to Aniverse are documented here.
 
 ---
 
+## [1.1.5] — 2026-07-31
+
+### Fixed
+- Player video remains visible when the CinePlayer controls fade out
+- Improved subtitle upload and online caption handling
+- Corrected player sizing and episode information on different Android displays
+- Refined playback server fallback and stream-loading behavior
+
+### Added
+- In-app update checks and direct APK update flow
+- Downloaded and offline playback improvements
+- Playback language, quality, and subtitle preferences
+- Expanded theme and accessibility customization
+
+---
+
 ## [1.3] — 2026-07-27
 
 ### Fixed
