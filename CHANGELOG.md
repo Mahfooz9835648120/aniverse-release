@@ -4,6 +4,19 @@ All notable changes to Aniverse are documented here.
 
 ---
 
+## [1.1.6] — 2026-07-31
+
+### Fixed
+- Replaced the oversized double-tap seek effect with compact, smooth feedback
+- Removed the blue full-volume highlight for consistent player styling
+- Protected bright scenes from washed-out enhancement and excessive contrast
+
+### Improved
+- Added restrained colour smoothing while preserving anime line detail
+- Refined CinePlayer enhancement levels for cleaner playback
+
+---
+
 ## [1.1.5] — 2026-07-31
 
 ### Fixed
