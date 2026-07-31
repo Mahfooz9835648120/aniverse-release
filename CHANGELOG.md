@@ -4,6 +4,31 @@ All notable changes to Aniverse are documented here.
 
 ---
 
+## [1.1.7] — 2026-08-01
+
+### Added
+- **AI Caption Translation** — online subtitles can now be auto-translated to your preferred language using Claude AI; works with Jimaku, OpenSubtitles, and Wyzie sources
+- **Random Suggestion** — new shuffle button on the home screen drops you into a random highly-rated anime pick, perfect for when you can't decide what to watch
+- **Manga UI Overhaul** — cleaner reader layout with edge-to-edge pages, gesture-based zoom, and per-chapter quick-jump from the TOC overlay
+- **Manga Reading Made Easier** — tap-to-seek within a chapter, pinch-to-zoom on any panel, and persistent last-read position synced across sessions
+- **Season Tabs in Player** — multi-season anime (Demon Slayer, AOT, JJK, etc.) now show Season 1 / Season 2 / … tabs above the episode list for instant navigation between seasons
+
+### Improved
+- **Player UI refresh** — updated server/source panel with provider logos, cleaner autoplay countdown card, and smoother fullscreen landscape lock
+- **Details page** — AniList resolution now shows disambiguation cards when multiple matches found; never silently fails
+- **Browse page** — TV channel and OTT platform chips now show logos instead of text; results display as Top-10-style list rows with backdrop
+- **Subtitle panel** — filenames shown as primary label; English subtitles sorted first; single-select fixed (no more all-ON bug)
+- **Profile** — streak-based reward milestones show exact days remaining to next unlock; animated flame in profile card banner
+
+### Fixed
+- Videasy domain updated from `.net` → `.to`; player loads correctly again
+- Season resolution no longer shows 60+ flat episodes for multi-season anime
+- Subtitle providers (OpenSubtitles, Wyzie, Podnapisi) now correctly receive IMDB ID via AniList `externalLinks` — all providers load, not just Jimaku
+- Community page avatar frames and animated gradient usernames now render correctly
+- Watch button on details page never silently fails — always navigates even if AniList resolution times out
+
+---
+
 ## [1.1.6] — 2026-07-31
 
 ### Fixed
