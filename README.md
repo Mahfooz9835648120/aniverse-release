@@ -17,7 +17,7 @@
 
 [![⬇️ Download APK](https://img.shields.io/github/v/release/Mahfooz9835648120/aniverse-release?label=%E2%AC%87%EF%B8%8F%20Download%20APK&color=6d28d9&style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Latest-v1.1.7-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1.7)
+[![Version](https://img.shields.io/badge/Latest-v1.1.8-a855f7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1.8)
 [![License](https://img.shields.io/badge/Personal%20Use-Only-ec4899?style=for-the-badge)](#disclaimer)
 
 <br/>
@@ -49,9 +49,9 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/player-one-piece.jpg" width="160"/><br/><sub><b>Native Player — Skip Intro</b></sub></td>
-    <td align="center"><img src="screenshots/player.jpg" width="160"/><br/><sub><b>Video Player Controls</b></sub></td>
-    <td align="center"><img src="screenshots/episode-list.jpg" width="160"/><br/><sub><b>Episode List + Providers</b></sub></td>
+    <td align="center"><img src="screenshots/player-one-piece.jpg" width="160"/><br/><sub><b>Native Player</b></sub></td>
+    <td align="center"><img src="screenshots/player.jpg" width="160"/><br/><sub><b>Player Controls</b></sub></td>
+    <td align="center"><img src="screenshots/episode-list.jpg" width="160"/><br/><sub><b>Episodes & Providers</b></sub></td>
   </tr>
 </table>
 
@@ -62,7 +62,7 @@
     <td align="center"><img src="screenshots/manga.jpg" width="160"/><br/><sub><b>Manga Home</b></sub></td>
     <td align="center"><img src="screenshots/manga-reader.jpg" width="160"/><br/><sub><b>Manga Reader</b></sub></td>
     <td align="center"><img src="screenshots/browse.jpg" width="160"/><br/><sub><b>Browse & Search</b></sub></td>
-    <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>My Watchlist</b></sub></td>
+    <td align="center"><img src="screenshots/watchlist.jpg" width="160"/><br/><sub><b>Watchlist</b></sub></td>
   </tr>
 </table>
 
@@ -70,9 +70,9 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/profile-v2.jpg" width="160"/><br/><sub><b>Profile & Watch Stats</b></sub></td>
+    <td align="center"><img src="screenshots/profile-v2.jpg" width="160"/><br/><sub><b>Profile & Stats</b></sub></td>
     <td align="center"><img src="screenshots/sidebar.jpg" width="160"/><br/><sub><b>Sidebar & Library</b></sub></td>
-    <td align="center"><img src="screenshots/settings-playback.jpg" width="160"/><br/><sub><b>Playback Preferences</b></sub></td>
+    <td align="center"><img src="screenshots/settings-playback.jpg" width="160"/><br/><sub><b>Playback Settings</b></sub></td>
     <td align="center"><img src="screenshots/settings-theme-rose.jpg" width="160"/><br/><sub><b>Theme Customisation</b></sub></td>
   </tr>
 </table>
@@ -83,73 +83,88 @@
 
 ## ⬇️ Installation
 
-> ⚠️ **Updating from an older build?** This release uses a different signing key than earlier APKs, so Android will **not** let you install it as an update over an existing install. You'll need to **uninstall the old Aniverse app first**, then install this one fresh. Uninstalling clears local app data (watch history saved only on-device, custom theme settings, etc.) — anything synced to your account will still be there after signing back in.
-
 <details open>
 <summary><b>Quick Install Guide</b></summary>
 
 <br/>
 
-**Step 1** — Download the APK from one of the sources below
+**Step 1** — [Download v1.1.8](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1.8) from GitHub Releases
 
-**Step 2** — On your Android device, open **Settings → Security** (or **Privacy**) and enable **Install from unknown sources** / **Install unknown apps**
+**Step 2** — On your Android device, go to **Settings → Security** and enable **Install unknown apps**
 
-**Step 3** — If you have an older Aniverse APK installed, **uninstall it first** — this release can't be installed as an update over it
+**Step 3** — Open the downloaded APK and tap **Install**
 
-**Step 4** — Open the downloaded APK file and tap **Install**
-
-**Step 5** — Launch **Aniverse** and start watching 🎌
+**Step 4** — Launch **Aniverse** and start watching 🎌
 
 </details>
 
 <br/>
 
-### 📦 Download Sources
+### 📦 Download
 
 | Source | Link | Notes |
 |--------|------|-------|
-| **GitHub Releases** *(recommended)* | [⬇️ Download v1.1.6](https://github.com/Mahfooz9835648120/aniverse-release/releases/latest) | Always up to date |
+| **GitHub Releases** *(recommended)* | [⬇️ Download v1.1.8](https://github.com/Mahfooz9835648120/aniverse-release/releases/tag/v1.1.8) | Always up to date |
 | **StreamVerse Mirror** | [⬇️ streamverse.fun/download](https://www.streamverse.fun/download.html) | Alternative mirror |
 
 <br/>
 
 ### 🛡️ Safety & Virus Scan
 
-Aniverse v1.1.6 is ready for Android. A new VirusTotal report will be linked with the release APK. The report below is retained for the previous v1.3 build.
-
 [![VirusTotal](https://img.shields.io/badge/v1.3%20VirusTotal-0%20Detections-22c55e?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
-
-> 🔗 [**View the v1.3 VirusTotal report →**](https://www.virustotal.com/gui/file-analysis/MTYxOTY5ZDQyNjk0NDAxYWU5MzM4N2FlODE5MGE1M2M6MTc4NTE0MjM3NA==)
 
 ---
 
-## 🌟 Feature Overview
+## 🆕 What's New — v1.1.8
 
-<br/>
+### 🎬 Updated Animations
+Smoother transitions across the entire app — hero banner swipes, episode card reveals, provider panel open/close, and page navigation all got reworked with spring-based physics for a more native feel.
 
-### 🏠 Home Screen
-- **3D Hero Banner** — depth-layered carousel with glass-morphism; suggests anime based on your watch history
-- **Continue Watching** — pick up exactly where you left off, with per-card progress bar
-- **Continue Reading** — manga chapter + page saved, resume directly from home
-- **Trending Now / All-Time Popular / Picks For You** — personalised recommendation rows
-- **Trending Manga** — fresh chapters updated daily
+### ⬇️ Download for All Streams
+Download any episode from any provider — Direct, Dubbed, Language streams and Native HLS — straight to your device. Downloads run in the background, show progress, and are accessible from the Library tab for offline playback.
 
-<br/>
+### 📋 Details Page Overhaul
+- Richer media info: studios, aired date, duration per episode, source (manga/light novel/original)
+- Related anime (sequels, prequels, side stories) shown as cards below the main info
+- Trailer preview embed directly on the details page
+- Faster load with skeleton placeholders while data fetches
 
-### 🃏 Media Card Expand
-**Long-press** any card anywhere in the app to expand into a detail sheet:
-- Shows title, synopsis, year, type, score
-- Quick-action buttons: **ⓘ Info · Share · ▶ Play · 🔖 Watchlist**
-- On the hero banner — **swipe up** on an expanded card to jump straight into playback
+### 🤖 AI Caption Translation
+Subtitles from any provider (Jimaku, OpenSubtitles, Wyzie) can now be auto-translated to your language using Claude AI — no manual searching needed.
 
-<br/>
+### 🎲 Random Suggestion
+Tap the shuffle button on the home screen to get a random top-rated anime pick — perfect when you can't decide what to watch.
+
+### 🗓️ Season Tabs in Player
+Multi-season anime like Demon Slayer, AOT, JJK and MHA now show **Season 1 / Season 2 / Season 3** tabs above the episode list. Tap to jump between seasons instantly without going back to search.
+
+### 📖 Manga Overhaul
+- Edge-to-edge pages with no dead zones
+- Pinch-to-zoom on any panel
+- Tap-to-seek within a chapter
+- Last-read page + chapter synced across sessions
+
+### 🎬 Player UI Refresh
+- Provider logos in the server panel
+- Cleaner autoplay countdown card (10s timer with thumbnail)
+- Smoother landscape orientation lock on fullscreen
+- 1-minute "Up Next" banner before episode ends
+
+---
+
+## 🌟 Features
+
+### 🏠 Home
+- **3D Hero Banner** — glass-morphism carousel with depth layers
+- **Continue Watching** — resume exactly where you left off
+- **Continue Reading** — manga chapter + page saved
+- **Personalised Rows** — Trending Now · All-Time Popular · Picks For You
+- **Random Suggestion** — shuffle into something new *(new in v1.1.7)*
 
 ### 🎌 Multi-Audio Playback
-Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · English · Japanese** — switched instantly without buffering.
+**Hindi · Tamil · Malayalam · Telugu · Bengali · English · Japanese** — switch instantly without buffering.
 
-<br/>
-
-### 📺 Massive Multi-Audio Catalog
+### 📺 Multi-Audio Catalog
 
 | Anime | Episodes | Multi-Audio |
 |-------|----------|-------------|
@@ -160,188 +175,47 @@ Pick your language — **Hindi · Tamil · Malayalam · Telugu · Bengali · Eng
 | Fairy Tail | 175+ | ✅ Available |
 | + 380 more titles | — | Varies |
 
-<br/>
+### 🖥️ Player
+- Multi-provider selection (Embed · Dub · Language streams · Native HLS)
+- AI Caption Translation · Upload SRT/VTT/ASS · Online subtitle search
+- Season tabs for multi-season anime *(new in v1.1.7)*
+- Auto Skip Intro / Outro · Autoplay Next Episode
+- `-10 / +10` skip · PiP · Fullscreen landscape lock
+- **Download for all streams** — save episodes for offline playback *(new in v1.1.8)*
+- Previous / Next episode cards with thumbnail preview
 
-### 🖥️ Player & Providers
-
-| Provider | Description |
-|----------|-------------|
-| **Embed** | Default stream source |
-| **Dub** | English dubbed stream |
-| **English-S1/S2/S3** | Season-specific English sources |
-| **Aniverse Player** | Native HLS player with subtitle support |
-
-- **Autoplay** toggle · **Play Embed** toggle · Episode counter badge (`Ep 8 / 13`)
-- **Previous / Next** episode cards with thumbnail preview
-- `-10 / +10` skip · Subtitles · Settings · PiP · Fullscreen
-
-<br/>
-
-### 🗂️ Smart Episode Navigation
-- **Arc Pills** — browse by story arc for shows ≤100 eps/season
-- **Range Dropdown** — chunked 1–100, 101–200 for long series
-- **TMDB / AniList Toggle** — switch episode data source for best thumbnails & titles
-- 🟡 **Filler Markers** — every filler episode clearly labelled
-- **List View** — thumbnail + title + NOW PLAYING indicator
-
-<br/>
-
-### ⏭️ Auto Features
-
-| Feature | Description |
-|---------|-------------|
-| **Auto Skip Intro** | Skips opening automatically |
-| **Auto Skip Outro** | Skips credits automatically |
-| **Autoplay Next** | Plays next episode when current ends |
-
-<br/>
+### 🗂️ Episode Navigation
+- Arc pills for shows ≤100 eps/season
+- Range dropdown (1–100, 101–200…) for long series
+- Filler markers · List view with thumbnails · TMDB/AniList toggle
 
 ### 📖 Manga Reader
-- **Scroll mode** — classic vertical scroll
-- **Swipe mode** — horizontal page-by-page like a real manga
-- **Zoom** — pinch or Fit / + / − controls · **Page gap** slider
-- Read position saved — resume from exact page in Continue Reading
-- Supports Manga, Manhwa, Manhua
-
-<br/>
-
-### 🔖 Watchlist
-- Add anime, movies, and manga to your personal list
-- Filter by **All · Anime · Movies · Manga** · Search within list
-- Long-press a card to remove
-
-<br/>
+- Scroll mode (vertical) or Swipe mode (horizontal page-by-page)
+- Pinch-to-zoom · Fit / + / − controls
+- Resume from exact page · Supports Manga, Manhwa, Manhua
 
 ### 🎨 Theme System
-
-| Option | Description |
-|--------|-------------|
-| **System / Dark / Light** | Follows device or manual override |
-| **Accent presets** | Aniverse · Sakura · Moon · Graphite · Gold Black · Aurora · Emerald · Crimson · Royal · Lavender · Solar · Ocean · Matcha · Rose · Copper |
-| **Custom colours** | Main + Soft hex; unlocks at 30-day streak |
-| **Rounded corners** | Slider 0–30px |
-| **Glass strength** | Blur intensity 0–100% |
-| **Live preview** | See changes before applying |
-
-<br/>
+- System / Dark / Light · 15 accent presets
+- Custom hex colours (unlocks at 30-day streak)
+- Rounded corners · Glass blur strength · Live preview
+- Reduce Motion mode for low-end devices
 
 ### 👤 Profile & Stats
-- Avatar, banner, bio, verified badge
-- **Watch Stats**: Day Streak · Episodes · Watch Time · Best Streak
-- Account info: Provider · Member since · Last sign in
-- **Refresh rate**: Auto / 60 / 90 / 120 Hz
-
----
-
-## 🆕 What's New — v1.1.6
-
-```
-🎬  CINEPLAYER
-────────────────────────────────────────────────────────────────────
-✅  Compact seek animation       Cleaner double-tap forward/rewind
-                                feedback with accumulated seconds
-
-✅  Refined enhancement         Smoother colour areas and protected
-                                highlights without overprocessing
-
-✅  Consistent volume UI        Full volume now keeps the clean white
-                                player styling
-
-🐛  FIXES
-──────────────────────────────────────────────────────────────────
-✅  Player screen cut-off       Player no longer gets clipped on
-                                different screen sizes — full video
-                                frame always visible
-
-✅  Font sizing fixed           Text sizes across player info, episode
-                                titles and detail pages now scale
-                                correctly on all device densities
-
-✅  Subtitle upload fixed       File picker stays alive correctly when
-                                uploading SRT · VTT · ASS · SSA
-                                subtitle files from local storage
-
-
-✨  HOME & HERO BANNER
-──────────────────────────────────────────────────────────────────
-✅  Cleaner Hero Banner         Redesigned hero with tighter layout,
-                                better contrast and smoother swipe
-                                transitions between cards
-
-✅  AI-Powered Suggestions      Hero shows "Matches your Drama +
-                                Action taste" context — picks anime
-                                based on your genres, history and
-                                what you chose in onboarding
-
-✅  Continue Watching Hero      If you have an in-progress episode,
-                                the hero shows it first with episode
-                                number and timestamp
-
-✅  Personalised Greeting       Greeting changes by time of day —
-                                "Hello", "Welcome back" etc. with
-                                your username shown
-
-✅  Anime Quote Strip           Rotating quotes between the hero
-                                and Continue Watching row
-
-✅  Smoother Swipes             Hero transitions refined — less work
-                                while swiping, snappier feel
-
-
-🎨  DESIGN & CUSTOMISATION
-──────────────────────────────────────────────────────────────────
-✅  Reduce Motion toggle        Simpler cards, static backgrounds
-                                and shorter transitions — for low-end
-                                devices or motion sensitivity
-
-✅  Low Performance Mode        Reduce Motion disables parallax,
-                                heavy blur and complex animations
-                                to keep the app fast on budget phones
-
-✅  More Theme Presets          Ocean · Matcha · Rose · Copper added
-
-✅  Better Light Theme          Player nav, info panels, community
-                                chat and controls now use readable
-                                theme-aware surfaces
-
-✅  Playback Preferences        Primary language · Secondary language
-                                · Preferred quality (1080p / 720p /
-                                480p) saved per account
-
-
-👤  PROFILE & LIBRARY
-──────────────────────────────────────────────────────────────────
-✅  Sidebar My Library          Quick access to Watchlist, Admin
-                                Panel, Community and Social from
-                                the side menu with recent watch row
-
-✅  Wider Subtitle Support      SRT · VTT · ASS · SSA and Android
-                                generic document MIME types all work
-
-✅  Profile Media Fix           Avatar and banner image pickers open
-                                the gallery correctly; animated
-                                media has a separate chooser
-
-✅  Discord Sign-In             Discord OAuth alongside Google and
-                                email sign-in
-```
+- Avatar, banner, bio, avatar frames, streak-based rewards
+- Watch Stats: Day Streak 🔥 · Episodes · Watch Time · Best Streak
+- Streak reward milestones show days to next unlock
 
 ---
 
 ## 📋 Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
+See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
 ---
 
 ## 🐛 Report a Bug
 
-Found something broken? [**Open an issue**](https://github.com/Mahfooz9835648120/aniverse-release/issues/new?template=bug_report.md) and include:
-
-- Your Android version & device model
-- The anime title and episode number
-- Which server (1 or 2) you were on
-- A screenshot or screen recording if possible
+[**Open an issue**](https://github.com/Mahfooz9835648120/aniverse-release/issues/new?template=bug_report.md) and include your Android version, device model, anime title, and a screenshot if possible.
 
 ---
 
@@ -350,32 +224,32 @@ Found something broken? [**Open an issue**](https://github.com/Mahfooz9835648120
 <details>
 <summary><b>Why isn't my language available for a specific anime?</b></summary>
 <br/>
-Multi-audio availability depends on the stream provider. Most popular long-running anime (One Piece, Naruto, DBZ) have Hindi/Tamil/Malayalam dubs available. Newer or less popular titles may only have Japanese + English.
+Multi-audio depends on the stream provider. Popular long-running titles (One Piece, Naruto, DBZ) have Hindi/Tamil/Malayalam dubs. Newer titles may only have Japanese + English.
 </details>
 
 <details>
-<summary><b>The stream isn't loading — what do I do?</b></summary>
+<summary><b>Stream not loading?</b></summary>
 <br/>
-Try switching to Server 2 using the server button below the player. If both fail, the episode may not be available yet or the provider may be temporarily down.
+Try switching servers in the provider panel. If both fail, the provider may be temporarily down.
 </details>
 
 <details>
-<summary><b>Is this available on iOS?</b></summary>
+<summary><b>iOS support?</b></summary>
 <br/>
-Not currently — Android only. iOS support is not planned.
+Android only. No iOS plans.
 </details>
 
 <details>
-<summary><b>Does the app need an account?</b></summary>
+<summary><b>Account required?</b></summary>
 <br/>
-No account required. Watch directly.
+No account needed. Watch directly. Account unlocks profile, watchlist sync, and streak rewards.
 </details>
 
 ---
 
 ## ⚠️ Disclaimer
 
-Aniverse does not host, store, or distribute any video content. All streams are sourced from independent third-party providers. This application is built for personal, non-commercial use only. The developer takes no responsibility for the content available through third-party stream sources.
+Aniverse does not host, store, or distribute any video content. All streams are sourced from independent third-party providers. Built for personal, non-commercial use only.
 
 ---
 
@@ -383,7 +257,7 @@ Aniverse does not host, store, or distribute any video content. All streams are 
 
 <br/>
 
-**Aniverse v1.1.6**
+**Aniverse v1.1.8**
 
 Built by **NYROX**
 

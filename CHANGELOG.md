@@ -4,6 +4,18 @@ All notable changes to Aniverse are documented here.
 
 ---
 
+## [1.1.8] — 2026-08-03
+
+### Added
+- **Download for All Streams** — download any episode from Direct, Dubbed, Language streams or Native HLS; runs in background with progress indicator; accessible from Library for offline playback
+- **Details Page Overhaul** — studios, aired date, episode duration, source type (manga/LN/original); related anime cards (sequels, prequels, side stories); inline trailer embed; skeleton loading
+
+### Improved
+- **Animations** — spring-based physics throughout; hero banner swipes, episode card reveals, provider panel, and page transitions all reworked for a more native feel
+- **Library tab** — downloaded episodes listed with progress, file size, and quick-play button
+
+---
+
 ## [1.1.7] — 2026-08-01
 
 ### Added
